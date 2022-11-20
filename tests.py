@@ -4,10 +4,11 @@ Calificación del laboratorio
 """
 
 import sys
-
+import pandas as pd
 import preguntas
 
-import pandas as pd
+
+
 def test_01():
     preguntas.pregunta_01()
 
