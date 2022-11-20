@@ -5,8 +5,6 @@ Calificación del laboratorio
 import sys
 import preguntas
 
-
-
 def test_01():
     preguntas.pregunta_01()
 
