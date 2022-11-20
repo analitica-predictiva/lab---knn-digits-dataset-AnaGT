@@ -7,7 +7,7 @@ import sys
 
 import preguntas
 
-
+import pandas as pd
 def test_01():
     preguntas.pregunta_01()
 
