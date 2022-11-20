@@ -8,14 +8,13 @@ En este laboratio se construirá un clasificador usando k-NN para el dataset de 
 #import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-
+from sklearn import datasets
 
 
 def pregunta_01():
     """
     Complete el código presentado a continuación.
     """
-    
 
     # Cargue el dataset digits
     digits = datasets.load_digits()
@@ -72,7 +71,6 @@ def pregunta_03():
     # Importe KNeighborsClassifier de sklearn.neighbors
     import pandas as pd
     from sklearn.neighbors import KNeighborsClassifier
-    
 
     # Importe train_test_split de sklearn.model_selection
     from sklearn.model_selection import train_test_split
