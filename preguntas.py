@@ -5,10 +5,10 @@ Clasificación usando k-NN - Digits Dataset
 En este laboratio se construirá un clasificador usando k-NN para el dataset de digitos.
 
 """
-import pandas as pd
+#import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-from sklearn import datasets
+
 
 
 def pregunta_01():
@@ -70,6 +70,7 @@ def pregunta_03():
 
     # Importe KNeighborsClassifier de sklearn.neighbors
     from sklearn.neighbors import KNeighborsClassifier
+    import pandas as pd
 
     # Importe train_test_split de sklearn.model_selection
     from sklearn.model_selection import train_test_split
